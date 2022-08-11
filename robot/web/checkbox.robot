@@ -1,18 +1,12 @@
 *** Settings ***
-Library   SeleniumLibrary
+Resource        base.robot
 
 Test Setup     Nova sessão
 Test Teardown  Encerra sessão
 
-*** Keywords ***
-Nova sessão
-    Open Browser                   ${url}     chrome
-Encerra sessão
-    Close Browser    
 
 
 *** Variables ***
-${url}               https://training-wheels-protocol.herokuapp.com/
 ${check_thor}        id:thor
 ${check_iron}        css:input[value='iron-man']
 ${check_panther}     xpath://*[@id='checkboxes']/input[7]
