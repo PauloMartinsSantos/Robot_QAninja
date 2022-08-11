@@ -7,3 +7,5 @@ Validar titulo da página
     Title Should Be      Training Wheels Protocol 
     Close Browser
 
+    ## Mesma solução implementada com RobotFramework
+
