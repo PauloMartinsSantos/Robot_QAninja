@@ -5,7 +5,7 @@ Library   SeleniumLibrary
 ${url}               https://training-wheels-protocol.herokuapp.com/
 ${check_thor}        id:thor
 ${check_iron}        css:input[value='iron-man']
-${check_panther}       xpath://*[@id='checkboxes']/input[7]
+${check_panther}     xpath://*[@id='checkboxes']/input[7]
 
 *** Test Cases ***
 Validar seleção de checkbox contendo Id com sucesso
