@@ -21,7 +21,7 @@ print ('Olá '+ nome + '! Prazer em te conhecer!') """
 
 num1 = input('Digite o primeiro valor: ')
 num2 = input('Digite o segundo valor:  ')
-soma = num1 + num2
+soma = (num1 + num2)
 
 print('O resultado da soma é: ' + soma)
 
