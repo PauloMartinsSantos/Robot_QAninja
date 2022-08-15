@@ -32,6 +32,6 @@ Login
 
 Validar login no E+ com sucesso
     Login
-    Page Should Contain    text=Separação por 
+    Page Should Contain   text=Separação por SKU
     
     Sleep    5            
