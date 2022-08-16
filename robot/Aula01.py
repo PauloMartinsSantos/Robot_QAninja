@@ -19,11 +19,11 @@ print ('Olá '+ nome + '! Prazer em te conhecer!') """
 
 ## Desafio 03: Crie um script Python que leia dois números e mostre a soma entre eles
 
-num1 = input('Digite o primeiro valor: ')
-num2 = input('Digite o segundo valor:  ')
-soma = (num1 + num2)
+num1 = int(input('Digite o primeiro valor: '))
+num2 = int(input('Digite o segundo valor:  '))
+soma = num1 + num2
 
-print('O resultado da soma é: ' + soma)
+print('O resultado da soma é: {} '.format(soma))
 
 
 
