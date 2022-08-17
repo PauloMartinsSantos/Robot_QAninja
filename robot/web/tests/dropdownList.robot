@@ -13,7 +13,7 @@ Validar acesso a pagina de Dropdown list
 Validar seleção por texto
     Go To    ${url}/dropdown
     Select From List By Label    class:avenger-list           Natasha Romanoff
-    ${selecionado}=              Get Selected List Value      class:avenger-list
+    ${selecionado} =             Get Selected List Value      class:avenger-list
     Should Be Equal              ${selecionado}               4
     Sleep    3
 
