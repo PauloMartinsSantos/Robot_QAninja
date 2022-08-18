@@ -42,7 +42,7 @@ Login With
 
     Input Text              css:input[name=username]    ${usr_name}
     Input Password          css:input[name=password]    ${pass}
-    Click Element           css:button[type=submit]
+    Click Button            css:button[type=submit]
 
 Should Contain Login Alert
     [Arguments]    ${expected_message}
