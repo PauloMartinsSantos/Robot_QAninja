@@ -1,7 +1,6 @@
 *** Settings ***
 Library   SeleniumLibrary
 
-
 *** Variables ***
 ${url}               https://training-wheels-protocol.herokuapp.com/
 
