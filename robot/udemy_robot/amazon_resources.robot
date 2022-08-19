@@ -5,6 +5,7 @@ Library    SeleniumLibrary
 ${url}                 https://www.amazon.com.br/
 ${main_link}           //a[@aria-label='Amazon.com.br'] 
 ${menu_eletronicos}    //a[contains(@href,'electronics')]
+${menu_login}         //span[@class='nav-line-2 ']
 
 *** Keywords ***
 

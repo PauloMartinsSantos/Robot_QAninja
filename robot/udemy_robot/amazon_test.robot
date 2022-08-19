@@ -13,6 +13,7 @@ Test case 02 - Acesso ao menu "Eletrônicos"
     [Tags]    menu_eletronicos
     Acessar menu eletronicos
     Page Should Contain     Eletrônicos e Tecnologia
+    Wait Until Element Is Visible     ${menu_login}
     Sleep    3
 # - Verificar se aparece a categoria "Computadores e Informática"
 
